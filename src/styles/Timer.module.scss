@@ -1,0 +1,26 @@
+@import './variables';
+
+.timer {
+  text-align: center;
+
+  &__header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 1.5rem;
+    padding: .5em 0;
+    background-color: $main-design-color;
+    color: #fff;
+
+    strong {
+      font-size: 600;
+    }
+  }
+
+  &__countdown {
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 2em 0 1em 0;
+  }
+}

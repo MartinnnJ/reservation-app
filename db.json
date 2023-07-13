@@ -1,0 +1,886 @@
+{
+  "rooms": [
+    {
+      "id": 101,
+      "roomName": "A101",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 102,
+      "roomName": "A102",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 103,
+      "roomName": "A103",
+      "balcony": true,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 104,
+      "roomName": "A104",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 105,
+      "roomName": "A105",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 106,
+      "roomName": "A106",
+      "balcony": true,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 107,
+      "roomName": "A107",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 108,
+      "roomName": "A108",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 109,
+      "roomName": "A109",
+      "balcony": true,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 201,
+      "roomName": "A201",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 202,
+      "roomName": "A202",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 203,
+      "roomName": "A203",
+      "balcony": true,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 204,
+      "roomName": "A204",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 205,
+      "roomName": "A205",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 206,
+      "roomName": "A206",
+      "balcony": true,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 207,
+      "roomName": "A207",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 208,
+      "roomName": "A208",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 209,
+      "roomName": "A209",
+      "balcony": true,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 301,
+      "roomName": "A301",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 302,
+      "roomName": "A302",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 303,
+      "roomName": "A303",
+      "balcony": true,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 304,
+      "roomName": "A304",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 305,
+      "roomName": "A305",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 306,
+      "roomName": "A306",
+      "balcony": true,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 307,
+      "roomName": "A307",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 308,
+      "roomName": "A308",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 309,
+      "roomName": "A309",
+      "balcony": true,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 401,
+      "roomName": "A401",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 402,
+      "roomName": "A402",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 403,
+      "roomName": "A403",
+      "balcony": true,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 404,
+      "roomName": "A404",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 405,
+      "roomName": "A405",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 406,
+      "roomName": "A406",
+      "balcony": true,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 407,
+      "roomName": "A407",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 408,
+      "roomName": "A408",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 409,
+      "roomName": "A409",
+      "balcony": true,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 501,
+      "roomName": "A501",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 502,
+      "roomName": "A502",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 503,
+      "roomName": "A503",
+      "balcony": true,
+      "roomInfo": {
+        "gender": "M",
+        "persons": [
+          { "personId": "c62069f1-23bc-4983-9047-1e313f44b488", "fullName": "Martin Jancura", "email": "martinnjancura@gmail.com" },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 504,
+      "roomName": "A504",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 505,
+      "roomName": "A505",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 506,
+      "roomName": "A506",
+      "balcony": true,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 507,
+      "roomName": "A507",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 508,
+      "roomName": "A508",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 509,
+      "roomName": "A509",
+      "balcony": true,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 601,
+      "roomName": "A601",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 602,
+      "roomName": "A602",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 603,
+      "roomName": "A603",
+      "balcony": true,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 604,
+      "roomName": "A604",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 605,
+      "roomName": "A605",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 606,
+      "roomName": "A606",
+      "balcony": true,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 607,
+      "roomName": "A607",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 608,
+      "roomName": "A608",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 609,
+      "roomName": "A609",
+      "balcony": true,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 701,
+      "roomName": "A701",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 702,
+      "roomName": "A702",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 703,
+      "roomName": "A703",
+      "balcony": true,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 704,
+      "roomName": "A704",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 705,
+      "roomName": "A705",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 706,
+      "roomName": "A706",
+      "balcony": true,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 707,
+      "roomName": "A707",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 708,
+      "roomName": "A708",
+      "balcony": false,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    },
+    {
+      "id": 709,
+      "roomName": "A709",
+      "balcony": true,
+      "roomInfo": {
+        "gender": null,
+        "persons": [
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null },
+          { "personId": null, "fullName": null, "email": null }
+        ]
+      }
+    }
+  ]
+}

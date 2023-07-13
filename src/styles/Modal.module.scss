@@ -1,0 +1,113 @@
+@import './variables';
+
+.overlay {
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(black, .6);
+}
+
+.modal {
+  position: absolute;
+  z-index: 10;
+  width: 60%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: $modal-spacing;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 1.75rem;
+
+  &__close-box {
+    position: relative;
+
+    &--btn {
+      position: absolute;
+      top: -$modal-spacing * 0.5;
+      right: -$modal-spacing * 0.5;
+      display: inline-block;
+      cursor: pointer;
+    }
+  }
+
+  &__info {
+    margin-bottom: $modal-spacing;
+    text-align: left;
+  }
+
+  &__person-data {
+    display: flex;
+    justify-content: space-evenly;
+    gap: $modal-spacing;
+    margin-bottom: 1em;
+
+    label, input {
+      width: 100%;
+      display: block;
+      padding: .2em;
+    }
+
+    label {
+      padding-left: 0;
+    }
+
+    input {
+      font-size: 1.75rem;
+      border: 1px solid black;
+      border-radius: 3px;
+    }
+
+    &--name-box,
+    &--email-box {
+      width: 50%;
+    }
+  }
+
+  &__gender-selector {
+    text-align: center;
+    margin: $modal-spacing 0;
+
+    label {
+      margin-right: .25em;
+    }
+
+    input {
+      margin-right: $modal-spacing;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  &__reservation-box {
+    text-align: center;
+
+    &--btn {
+      border: .2rem solid $main-design-color;
+      border-radius: 1.5em;
+      background-color: #fff;
+      color: $main-design-color;
+      font-size: $button-font-size;
+      padding: .35em .6em;
+      cursor: pointer;
+    
+      &:hover,
+      &:focus {
+        border-color: lighten($main-design-color, 20%);
+        color: lighten($main-design-color, 20%);
+      }
+    
+      &:disabled {
+        border-color: grey;
+        color: grey;
+        pointer-events: none;
+      }
+    }
+  }
+}

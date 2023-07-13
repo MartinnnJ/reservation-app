@@ -1,0 +1,29 @@
+@import './variables';
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 2em auto;
+  text-align: center;
+
+  &__header {
+    background-color: #f2f2f2;
+  
+    th {
+      font-size: $roomlist-header-font-size;
+      font-weight: 500;
+      padding: .5em;
+      white-space: nowrap; // zabranuje tomu, aby sa slova zalamovali na novy riadok
+      border-top: .1rem solid lightgrey;
+      border-bottom: .1rem solid lightgrey;
+    }
+  }
+
+  &__body {
+    font-size: $roomlist-body-font-size;
+
+    td[colspan] {
+      padding: 1em;
+    }
+  }
+}

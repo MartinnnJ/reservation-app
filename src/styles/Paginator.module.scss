@@ -1,0 +1,36 @@
+@import './variables';
+
+// attr. selector selects all classes whitch includes 'paginator__btn'
+[class*="paginator__btn"] {
+  display: inline-block;
+  padding: .5em 1em;
+  border: $paginator-btn-border-width solid transparent;
+  cursor: pointer;
+}
+
+.paginator {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 2em 0;
+
+  &__btn {
+
+    &:hover,
+    &:focus {
+      background-color: #f2f2f2;
+    }
+
+    &--active {
+      border: $paginator-btn-border-width solid $main-design-color;
+    }
+
+    &--arrow {
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}

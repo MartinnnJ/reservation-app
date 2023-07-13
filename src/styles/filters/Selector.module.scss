@@ -1,0 +1,20 @@
+.filters {
+  width: calc((100% / 3) - (0.125em * 2));
+  font-size: 1.65rem;
+  float: left;
+  margin: .125em;
+
+  label, select {
+    display: block;
+  }
+
+  label {
+    padding-bottom: .25em;
+  }
+
+  select {
+    width: 100%;
+    padding: .5em;
+    cursor: pointer;
+  }
+}

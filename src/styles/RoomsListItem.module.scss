@@ -1,0 +1,32 @@
+@import './variables';
+
+.table__row {
+  td {
+    font-size: inherit;
+    font-weight: 400;
+    padding: .25em .5em;
+    border-bottom: .1rem solid lightgrey;
+  }
+
+  &--btn {
+    border: .2rem solid $main-design-color;
+    border-radius: 1.5em;
+    background-color: #fff;
+    color: $main-design-color;
+    font-size: $button-font-size;
+    padding: .35em .6em;
+    cursor: pointer;
+  
+    &:hover,
+    &:focus {
+      border-color: lighten($main-design-color, 20%);
+      color: lighten($main-design-color, 20%);
+    }
+  
+    &:disabled {
+      border-color: grey;
+      color: grey;
+      pointer-events: none;
+    }
+  }
+}
