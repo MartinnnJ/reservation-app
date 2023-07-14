@@ -1,5 +1,6 @@
 import { createPortal } from 'react-dom';
 import { getFreePlacesCount } from '../helpers';
+import { motion } from "framer-motion";
 import styles from '../styles/Modal.module.scss';
 
 function Overlay({ onCloseModal }) {
@@ -19,7 +20,13 @@ function Modal({ modalState, onCloseModal, onModalInputChange, onReservationBtnC
     <>
       <Overlay onCloseModal={onCloseModal} />
 
-      <div className={styles.modal}>
+      <motion.div
+        initial={{ opacity: 0.1, scale: 0.75, translate: "-50% -50%" }}
+        animate={{ opacity: 1, scale: 1, translate: "-50% -50%" }}
+        exit={{ opacity: 0.1, scale: 0.75, translate: "-50% -50%" }}
+        transition={{ duration: 0.2 }}
+        className={styles.modal}
+      >
         <div className={styles['modal__close-box']}>
           <div className={styles['modal__close-box--btn']} onClick={onCloseModal}>✖</div>
         </div>
@@ -76,7 +83,7 @@ function Modal({ modalState, onCloseModal, onModalInputChange, onReservationBtnC
             Rezervovať
           </button>
         </div>
-      </div>
+      </motion.div>
     </>,
     document.querySelector('#modal')
   )

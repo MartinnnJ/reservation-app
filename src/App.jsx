@@ -12,6 +12,7 @@ import Timer from "./components/Timer";
 import Loader from "./components/Loader";
 import { createReservation, fetchRoom } from "./api/fetch";
 import { roomsPerPage, intervalUpdateTime, msgTimeoutTime, deadlineDate, validateModalData, generateNewPersonsIds } from "./helpers";
+import { AnimatePresence } from "framer-motion";
 
 function App() {
   const searchBarRef = useRef();
@@ -212,17 +213,23 @@ function App() {
           roomsPerPage={roomsPerPage}
           onPaginatorClick={onPaginatorClick}
         />
-        {modalState.isOpen && (
-          <Modal
-            modalState={modalState}
-            onCloseModal={onCloseModal}
-            onModalInputChange={onModalInputChange}
-            onReservationBtnClick={onReservationBtnClick}
-            onGenderChange={onGenderChange}
-            btnsDisabled={btnsDisabled}
-          />
-        )}
-        {message.visibility && <Message status={message.status} />}
+        <AnimatePresence>
+          {modalState.isOpen && (
+            <Modal
+              modalState={modalState}
+              onCloseModal={onCloseModal}
+              onModalInputChange={onModalInputChange}
+              onReservationBtnClick={onReservationBtnClick}
+              onGenderChange={onGenderChange}
+              btnsDisabled={btnsDisabled}
+            />
+          )}
+        </AnimatePresence>
+        <AnimatePresence>
+          {message.visibility && (
+            <Message status={message.status} />
+          )}
+        </AnimatePresence>
       </div>
     </>
   )
